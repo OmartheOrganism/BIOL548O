@@ -40,6 +40,7 @@ ds_weight_by_year <- summarize(ds_data_by_year,
                                avg_weight = mean(weight, na.rm = TRUE))
 # This is a little dumbe I could've just piped the output of the first lines to the last one
 
+<<<<<<< HEAD
 ### Exercise Two ###
 surveys <- read.csv(file.path("data","surveys.csv"))
 
@@ -77,3 +78,6 @@ surveys %>% select(species_id,year,weight) %>% group_by(year,species_id) %>% sum
 
 
       
+=======
+### Exercise Two ###
+>>>>>>> c975547dd98c63dbb2ae2d8bdd0028d5066504d2
