@@ -34,7 +34,7 @@ print(sauropodMass)
 #rewrite get_mass_from_length function to set default parameters
 ## rewriting so that the code for exercise two is preserved, so long as the script is executed in order everything should be fine
 get_mass_from_length <- function(length,a=39.9,b=2.6){
-  mass = a*length^b
+  mass = a * length ^ b
   return(mass)
 }
 
