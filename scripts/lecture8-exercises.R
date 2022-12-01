@@ -20,3 +20,11 @@ print(x > y)
 print("TRUE" %in% c(masses > 40))
 
 ### Exercise Two ###
+# Practice conditional age_class
+age_class = "sapling"
+if (age_class == "sapling"){
+  y <- 10
+}
+print(y)
+
+# 
